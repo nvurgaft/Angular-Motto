@@ -17,4 +17,10 @@
         // Primitive values cannot update alone using the revealing module pattern.
         return AnotherService;
     }
+
+    // Pass functions into module methods rather than assigning a callback.
+    // This helps aid with readability and helps reduced the amount of code "wrapped"
+    // inside Angular.
+    angular.module('app')
+    .service('AnotherService', AnotherService);
 })();
