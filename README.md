@@ -10,7 +10,7 @@ The repository is designed to be a resource/learning aid based off of Todd Motto
 
 ### Information on structure
 
-The 'scripts' folder follows the structure given in the guide for a smaller sized project. If you are looking for a large application structure you will most likely use a much more modular approach. I have included an example of what this may look like under 'large_app_structure' - it is just a shell and there is no code in there.
+The `scripts` folder follows the structure given in the guide for a smaller sized project. If you are looking for a large application structure you will most likely use a much more modular approach. I have included an example of what this may look like under `large_app_structure` - it is just a shell and there is no code in there.
 
 This is still very much a work in progess so I am opening it up to anyone who wants to make changes and it can hopefully grow over time.
 
