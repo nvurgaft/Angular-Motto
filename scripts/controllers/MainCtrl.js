@@ -26,15 +26,16 @@
             .then(function(response) {
                 vm.users = response;
             });
-        }
+        };
 
-        // Check the 'app.js' config function to see where this is used and an explanation.
-        vm.resolve = {
-            doSomething: function() {
-                return UserService.doSomething();
-            }            
-        }
     }
+    
+    // Check the 'app.js' config function to see where this is used and an explanation.
+    MainCtrl.resolve = {
+        doSomething: function() {
+            return UserService.doSomething();
+        }
+    };
 
     // Pass functions into module methods rather than assigning a callback.
     // This helps aid with readability and helps reduced the amount of code "wrapped"
