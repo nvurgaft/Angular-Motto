@@ -2,7 +2,7 @@
 //  It is advised to have this happen at compilation/concatenation but including it here as an example.
 (function() {
     
-    // All services are singletons, using .service() or .factory() differs the way Objects are created.
+    // All Services are singletons, using .service() or .factory() differs the way Objects are created.
 
     // This file gives an example of using a .factory().
     // Factories are for business logic or provider modules, return an Object or a closure.
@@ -25,5 +25,6 @@
     // This helps aid with readability and helps reduced the amount of code "wrapped"
     // inside Angular.
     angular.module('app')
-    .service('AnotherService', AnotherService);
+    .factory('AnotherService', AnotherService);
+    
 })();

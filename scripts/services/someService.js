@@ -2,7 +2,7 @@
 //  It is advised to have this happen at compilation/concatenation but including it here as an example.
 (function() {
     
-    // All services are singletons, using .service() or .factory() differs the way Objects are created.
+    // All Services are singletons, using .service() or .factory() differs the way Objects are created.
 
     // This file gives an example of using a .service().
     // These act as a constructor function and are instantiated with the 'new' keyword. 
