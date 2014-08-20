@@ -55,9 +55,7 @@ For now though, any extra information can be found on the styleguide so I urge y
 - Minification and annotation
 
 
-Big thanks to Todd Motto for the amazing styleguide
-===================================================
+Big thanks to Todd Motto for the styleguide
+===========================================
 
 There is a vast amount of brilliant content sitting in the guide that this repository has missed out. I urge anyone to check it out and read through it a 1000000 times because it supplies invaluable information. Any additional things I have missed out in this repo I am sure you will find through the styleguide.
-
-Such a beautiful piece of work. It brings a single tear of joy every time I read it.
