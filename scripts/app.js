@@ -20,9 +20,18 @@
             resolve: MainCtrl.resolve
         });
     }
+    
+    function run() {
+        // this will run before your application starts
+    }
 
     // Avoid setting a variable for the module and rely on getter/setter syntax.
     // Supplying an array as the second argument, sets the module. Leaving them off gets the module.
     // Only set the module once. Use get for all times after that.
-    angular.module('app', []);
+    angular
+        // nick: set your 3-rd party includes inside the square brackets, leave controllers/service/etc.. out!  
+        .module('app', []) 
+        // include the config and run functions
+        .config(config)
+        .run(run);
 })();
