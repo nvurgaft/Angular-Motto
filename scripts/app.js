@@ -6,8 +6,7 @@
         $routeProvider
         .when('/', {
             templateUrl: 'views/main.html',
-            controllerAs: 'main',
-            controller: 'MainCtrl'
+            controllerAs: 'MainCtrl as main'
             
             // Resolve Controller dependencies in the $routeProvider or $stateProvider (if using ui-router),
             // not the controller itself.
